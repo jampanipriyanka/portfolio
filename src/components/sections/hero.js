@@ -61,24 +61,17 @@ const Hero = () => {
 
   const one = <h1>Hi! My name is</h1>;
   const two = <h2 className="big-heading">Priyanka Jampani</h2>;
-  const three = <h3 className="medium-heading">I create software solutions, and design the web Applications.</h3>;
+  const three = <h3 className="medium-heading">I create software solutions, and build robust applications for the web.</h3>;
   const four = (
     <>
       <p>
-        <b>Glad to e-meet you!</b>
+        <b>Glad to meet you!</b>
       </p>
 
       <p>
-        I am Chandrika Deb, an alumnus of {' '} <a href="http://www.iimrohtak.ac.in">
-        IIM Rohtak</a> {' '} and {' '} <a href="https://www.bitmesra.ac.in">BIT Mesra</a> {' '} currently spearheading impactful marketing initiatives at {' '}
-        <a href="https://www.tatasteel.com">Tata Steel</a>.
-      </p>
-
-
-      <p>
-        When not decoding the customer journey, you can find me sketching on {' '}
-        <a href="https://pin.it/4W1Rxtj">Pinterest</a> {' '} or writing technical blogs for {' '}
-        <a href="https://www.lambdatest.com">LambdaTest</a> {' '} and other freelance clients.
+      I'm a Full Stack Developer with over 3 years of experience specializing in creating efficient,
+       user-focused digital experiences. 
+      Currently, I'm dedicated to developing innovative solutions using Python, Angular, and AWS.
       </p>
     </>
   );

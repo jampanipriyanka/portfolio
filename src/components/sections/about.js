@@ -125,8 +125,8 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['Market Research', 'Data Analysis', 'Brand Management', 'Digital Marketing', 
-  'SPSS', 'Tableau', 'MS Office', 'Python'];
+  const skills = ['Angular', 'ReactJs', 'Python', 'Django', 'MySQL',
+    'Jasmine', 'Karma'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -136,32 +136,24 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-            With a core specialization in Marketing &amp; Strategy, I've orchestrated impactful
-             strategies in brand perceptions during my MBA summer internship for {' '}
-             <a href="https://www.tatastructura.com">Tata Structura</a> {' '} at{' '} 
-             <a href="https://drive.google.com/file/d/1xhGTFz7pe6kP7bZ4peDgJ7hlG630K8rz/view?usp=sharing">Tata Steel</a>.
-            </p>
+              With a specialization in Full Stack Development,
+              I've driven significant advancements in software design and user experience
+               during my tenure at {' '} <a href='https://acsicorp.com/about-acs/'>ACS Solutions Pvt Ltd</a> {' '}.</p>
+
+            <p>I contributed to the development of innovative features for existing applications, 
+              utilizing technologies such as Angular, Python, and AWS.
+              My role focused on enhancing the UI and integrating RESTful APIs to improve server-client communication.</p>
+
+            <p>At the {' '} <a href='https://www.unt.edu/index.html'>University of North Texas</a> {' '},  where I pursued a Master of Science in Artificial Intelligence,
+              I honed my skills in AI and machine learning, contributing to projects
+               that aimed to predict disease progression and analyze big data trends.</p>
 
             <p>
-            I also spearheaded employer branding initiatives for {' '}
-            <a href="https://drive.google.com/file/d/1w-uN9jb86pxFXPYMDu_78P-d1CZJAx3V/view?usp=sharing">
-              Aditya Birla Fashion and Retail</a>, {' '} resulting in a remarkable 37% surge in consumer engagement 
-              during my remote live project as part of my MBA journey.
-            </p>
+              Moreover, my experience extends to various personal and academic projects,
+               including a newsgroup application, a publication listing service, and a platform for analyzing precision areas.
+              These projects reflect my commitment to leveraging technology for impactful solutions.</p>
 
-            <p>
-            During my tenure at {' '} <a href="https://www.amdocs.com">Amdocs</a>, {' '} 
-            where I served as a Software Developer, I had the honor of being selected as one of 16 elite {' '} 
-            <a href="https://drive.google.com/file/d/16BGu5InZZDGCtoWas560ezwKsgVBKbI9/view?usp=sharing">Innovation Agents</a>.
-            </p>
-
-            <p>
-            Moreover, my role as a {' '} <a href="https://drive.google.com/file/d/1iRTZfE7v5Y99BYZVxevaGBVtF90t-TOb/view?usp=sharing">
-              Placement Coordinator</a> {' '} at IIM Rohtak saw me cultivate over 30 new corporate relationships, culminating in a 
-              remarkable 42% boost in campus placements.
-            </p>
-
-            <p>My skills are not limited to this list!</p>
+            <p>My skills include, but are not limited to:</p>
           </div>
 
           <ul className="skills-list">
